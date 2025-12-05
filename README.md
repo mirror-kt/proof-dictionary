@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# proof-dictionary
 
-## Getting Started
+This dictionary is for [proofdict](https://github.com/proofdict/proofdict).
 
-First, run the development server:
+- Dictionary: <https://proofdict.mirror-kt.dev/>
+- Editor: <https://proofdict.mirror-kt.dev/editor>
+- JSON API: <https://proofdict.mirror-kt.dev/dictionary.json>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Usage
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Add dictionary
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+If you want to add new rule to your dictionary, you can add new rule by following steps: 
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Visit your [editor page](https://proofdict.mirror-kt.dev/editor):
 
-## Learn More
+- <https://proofdict.mirror-kt.dev/editor>
 
-To learn more about Next.js, take a look at the following resources:
+### Update dictionary
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+If you want to update the rule from your dictionary, you can edit it by following steps: 
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Visit [_data/proofdict][]
+2. Select the file for updating
+3. Edit the file by click Edit this file icon
 
-## Deploy on Vercel
+### Remove dictionary
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+If you want to remove unnecessary rule from your dictionary, you can remove it by following steps: 
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Visit [_data/proofdict][]
+2. Select the file for removing
+3. Remove the file by click Delete this file icon
+
+### Test dictionary
+
+You can check your proof-dictionary is valid format.
+
+Run following command in your local:
+
+    yarn install
+    yarn run test
+
+[_data/proofdict]: _data/proofdict "dictionary data directory"
