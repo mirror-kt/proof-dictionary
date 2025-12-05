@@ -1,0 +1,12 @@
+{
+  "name": "proofdict",
+  "compatibility_date": "2025-08-06",
+  "assets": {
+    "directory": "./out"
+  },
+  "preview_urls": true,
+  "route": {
+    "pattern": "proofdict.mirror-kt.dev/*",
+    "zone_name": "mirror-kt.dev"
+  }
+}
