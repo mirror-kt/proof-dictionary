@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@iconify/react": "^6.0.2",
+    "@radix-ui/react-dialog": "^1.1.15",
     "@radix-ui/react-dropdown-menu": "^2.1.16",
     "@radix-ui/react-separator": "^1.1.8",
     "@radix-ui/react-slot": "^1.2.4",
@@ -33,6 +34,7 @@
   "devDependencies": {
     "@biomejs/biome": "2.2.0",
     "@iconify-json/ic": "^1.2.4",
+    "@iconify-json/octicon": "^1.2.19",
     "@proofdict/tester-cli": "^3.1.0",
     "@tailwindcss/postcss": "^4",
     "@types/js-yaml": "^4",

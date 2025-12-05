@@ -121,8 +121,8 @@
   }
 }
 
-iconify-icon {
-  display: inline-block;
-  width: 1em;
-  height: 1em;
+/* ダークモード時に外部iframeを反転 */
+[data-theme="dark"] .external-iframe,
+.dark .external-iframe {
+  filter: invert(1) hue-rotate(180deg) brightness(0.9) contrast(0.9);
 }

@@ -29,8 +29,8 @@ export async function DictionaryItem({ dictionary }: DictionaryItemProps) {
           <Icon
             icon="ic:baseline-search"
             mode="style"
-            color="blue"
-            inline={true}
+            inline
+            className="text-blue-600 hover:text-blue-800 visited:text-purple-600"
           />
         </Link>
         <Link
@@ -40,8 +40,8 @@ export async function DictionaryItem({ dictionary }: DictionaryItemProps) {
           <Icon
             icon="ic:baseline-edit"
             mode="style"
-            color="blue"
-            inline={true}
+            inline
+            className="text-blue-600 hover:text-blue-800 visited:text-purple-600"
           />
         </Link>
       </h2>
