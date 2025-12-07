@@ -19,7 +19,7 @@ function Toc() {
   }, []);
 
   return (
-    <div className="sticky top-0 pt-16 ml-8">
+    <div className="sticky top-0 pt-16 ml-8 max-h-screen overflow-y-scroll">
       <nav className="toc px-0 pb-8 text-base"></nav>
     </div>
   );

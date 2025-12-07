@@ -10,7 +10,5 @@ specs:
     to: WHATWG
   - from: WHAWG
     to: WHATWG
-  - from: WHATWG
-    to: WHATWG
 tags:
   - noun
