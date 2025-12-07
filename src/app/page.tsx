@@ -7,12 +7,12 @@ export default async function Home() {
 
   return (
     <div className="max-w-full m-10 flex justify-center">
-      <div className="dict">
+      <div className="dict max-w-full">
         {dictionaries.map((dictionary) => (
           <DictionaryItem dictionary={dictionary} key={dictionary.id} />
         ))}
       </div>
-      <div className="hidden md:inline-block">
+      <div className="hidden lg:inline-block">
         <Toc />
       </div>
     </div>
