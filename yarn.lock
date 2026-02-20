@@ -425,11 +425,11 @@ __metadata:
   linkType: hard
 
 "@iconify-json/octicon@npm:^1.2.19":
-  version: 1.2.20
-  resolution: "@iconify-json/octicon@npm:1.2.20"
+  version: 1.2.21
+  resolution: "@iconify-json/octicon@npm:1.2.21"
   dependencies:
     "@iconify/types": "npm:*"
-  checksum: 10c0/c3741cf7996d9d5f81b15beab3dc03873d79afa149400e5e6e562df2885dbcf1a34c416652b5db670b677fb215ab79907aa8a59d393194d6b1559e8d1abd8956
+  checksum: 10c0/1c4575171d5548421909136c6bc99b8fc1d450db7a443025c71c12b86fef5d406002ba178a652b06e61f39c6e2d6f9fc4a4a22f5d5981ad5cbc189b9bc1ad02b
   languageName: node
   linkType: hard
 
