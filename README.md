@@ -38,7 +38,7 @@ You can check your proof-dictionary is valid format.
 
 Run following command in your local:
 
-    yarn install
-    yarn run test
+    pnpm install
+    pnpm run test
 
 [_data/proofdict]: _data/proofdict "dictionary data directory"
