@@ -47,7 +47,7 @@
     "typescript": "^5",
     "wrangler": "^4.28.1"
   },
-  "packageManager": "pnpm@10.32.0",
+  "packageManager": "pnpm@10.32.1",
   "pnpm": {
     "executionEnv": {
       "nodeVersion": "25.8.1"
