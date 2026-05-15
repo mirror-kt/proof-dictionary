@@ -83,7 +83,7 @@ importers:
         version: 4.0.9
       '@types/node':
         specifier: ^24.0.0
-        version: 24.12.2
+        version: 24.12.3
       '@types/react':
         specifier: ^19
         version: 19.2.14
@@ -1103,8 +1103,8 @@ packages:
     resolution: {integrity: sha512-FvjfzM3GVk+izwv2jhbpkH6bw9NZhrbqObFDqoNTEfHalG5i42Ff8nZ0inB0GyACQCShtytOEBDnfEG9RPX36w==}
     deprecated: This is a stub types definition. minimist-options provides its own type definitions, so you do not need this installed.
 
-  '@types/node@24.12.2':
-    resolution: {integrity: sha512-A1sre26ke7HDIuY/M23nd9gfB+nrmhtYyMINbjI1zHJxYteKR6qSMX56FsmjMcDb3SMcjJg5BiRRgOCC/yBD0g==}
+  '@types/node@24.12.3':
+    resolution: {integrity: sha512-8oljBDGun9cIsZRJR6fkihn0TSXJI0UDOOhncYaERq6M0JMDoPLxyscwruJcb4GKS6dvK/d8xebYBg27h/duaQ==}
 
   '@types/react-dom@19.2.3':
     resolution: {integrity: sha512-jp2L/eY6fn+KgVVQAOqYItbF0VY/YApe5Mz2F0aykSO8gx31bYCZyvSeYxCHKvzHG5eZjc+zyaS5BrBWya2+kQ==}
@@ -2595,7 +2595,7 @@ snapshots:
   '@types/glob@7.2.0':
     dependencies:
       '@types/minimatch': 6.0.0
-      '@types/node': 24.12.2
+      '@types/node': 24.12.3
 
   '@types/globby@9.1.0':
     dependencies:
@@ -2617,7 +2617,7 @@ snapshots:
     dependencies:
       minimist-options: 4.1.0
 
-  '@types/node@24.12.2':
+  '@types/node@24.12.3':
     dependencies:
       undici-types: 7.16.0
 
