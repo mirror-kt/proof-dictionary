@@ -71,7 +71,7 @@ importers:
         version: 1.2.4
       '@iconify-json/octicon':
         specifier: ^1.2.19
-        version: 1.2.23
+        version: 1.2.24
       '@proofdict/tester-cli':
         specifier: ^3.1.0
         version: 3.1.0
@@ -390,8 +390,8 @@ packages:
   '@iconify-json/ic@1.2.4':
     resolution: {integrity: sha512-pzPMmrZrBQuwT7nmtrYdkttun8KalRGgZPIL1Ny9KpF2zjRGIUPN+npTfuD3lrgO/OnSwAoJWuekQwBpt/Cqrw==}
 
-  '@iconify-json/octicon@1.2.23':
-    resolution: {integrity: sha512-Orzy6EGFBuqiME4WAyyv7Wr/RCOtf2EDUiCHBr0glTMyPQWwtZqribj9UEbDPE/ZMlwx79YrQ7sOoDQv1pVqRQ==}
+  '@iconify-json/octicon@1.2.24':
+    resolution: {integrity: sha512-YyKin2K9u1oXxhufs62IPR5zNsHP3XWH3Y2WUsEcYbjMLX/PWsziUjDjqy2vDTrwvgdTmfMFlFRR6TX6/jEOiA==}
 
   '@iconify/react@6.0.2':
     resolution: {integrity: sha512-SMmC2sactfpJD427WJEDN6PMyznTFMhByK9yLW0gOTtnjzzbsi/Ke/XqsumsavFPwNiXs8jSiYeZTmLCLwO+Fg==}
@@ -2027,7 +2027,7 @@ snapshots:
     dependencies:
       '@iconify/types': 2.0.0
 
-  '@iconify-json/octicon@1.2.23':
+  '@iconify-json/octicon@1.2.24':
     dependencies:
       '@iconify/types': 2.0.0
 
