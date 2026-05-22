@@ -58,7 +58,7 @@ importers:
         version: 3.6.0
       tocbot:
         specifier: ^4.36.4
-        version: 4.36.6
+        version: 4.36.8
       valibot:
         specifier: ^1.2.0
         version: 1.4.0(typescript@6.0.3)
@@ -1759,8 +1759,8 @@ packages:
     resolution: {integrity: sha512-65P7iz6X5yEr1cwcgvQxbbIw7Uk3gOy5dIdtZ4rDveLqhrdJP+Li/Hx6tyK0NEb+2GCyneCMJiGqrADCSNk8sQ==}
     engines: {node: '>=8.0'}
 
-  tocbot@4.36.6:
-    resolution: {integrity: sha512-iIRRfzdHey2nyUpo8nq2OuNHI+83COxGMFOZjKHhmLut6W6T1WhAsJb1EiIa7X3PJyOdwZXuZX4d7jp+gkxh7A==}
+  tocbot@4.36.8:
+    resolution: {integrity: sha512-TpN+Z2YP4DTboeZ3GkUjzkjmG5NhJhXTVuH9EWQ/F4HgONVje9GZ8eNZE4kk88umV5o7hm3faS+eF/7qYwsP2w==}
 
   trim-newlines@2.0.0:
     resolution: {integrity: sha512-MTBWv3jhVjTU7XR3IQHllbiJs8sc75a80OEhB6or/q7pLTWgQ0bMGQXXYQSrSuXe6WiKWDZ5txXY5P59a/coVA==}
@@ -3246,7 +3246,7 @@ snapshots:
     dependencies:
       is-number: 7.0.0
 
-  tocbot@4.36.6: {}
+  tocbot@4.36.8: {}
 
   trim-newlines@2.0.0: {}
 
